@@ -1,5 +1,5 @@
-FROM ubuntu:latest
+FROM python:3.8
 WORKDIR /app
-RUN ls
+COPY prime_checker.py .
 
-CMD ["ls"]
+CMD ["prime_checker"]
