@@ -1,5 +1,5 @@
 FROM ubuntu:latest
 WORKDIR /app
-ls
+RUN ls
 
 CMD ["uuidgen"]
